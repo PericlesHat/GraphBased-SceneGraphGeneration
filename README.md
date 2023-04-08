@@ -5,8 +5,7 @@ This project is a set of graph structure-based scene graph generation. All codes
 - **HGNN**: Heterogeneous GNN can handle Object-Object (OO) and Object-Relation-Object (ORO) graphs and uses a custom heterogeneous graph neural network (GNN) for learning and prediction
 - More comming soon...
 
-### Installation
-Before running this project, please make sure you have installed the following dependencies:
+### Dependencies
 
 - Python 3.x
 - PyTorch
