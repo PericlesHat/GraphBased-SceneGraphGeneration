@@ -8,6 +8,7 @@ Before running this project, please make sure you have installed the following d
 - PyTorch
 - NumPy
 - Matplotlib
+
 You can install these dependencies using the following command:
 
 ```
