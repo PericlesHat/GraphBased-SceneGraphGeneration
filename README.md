@@ -13,17 +13,15 @@ This project is a set of graph structure-based scene graph generation. All codes
 - Matplotlib
 
 
-
 ### Usage
-To use this algorithm, you need to design your own `obj_vecs`, `rel_vecs`, and `edge_index` matrices.
+To use this framework, you need to design your own `obj_vecs`, `rel_vecs`, and `edge_index` matrices as following.
 
-`obj_vecs`: shape `(O, D)`, where `O` is the number of objects in the scene and `D` is the dimension of each object feature vector
+**obj_vecs**: shape `(O, D)`, where `O` is the number of objects in the scene and `D` is the dimension of each object feature vector
 
-`rel_vecs`: shape `(T, D)`, where `T` is the number of relations in the scene
+**rel_vecs**: shape `(T, D)`, where `T` is the number of relations in the scene
 
-`edge_index`: shape `(T, 2)`
+**edge_index**: shape `(T, 2)`, `edge_index[k] = i, j` indicates a triplet < object_vecs[i], rel_vecs[k], obj_vecs[j] >
 
-Each row in edge_index represents an edge between two objects, and the values in each row represent the indices of the connected objects in the obj_vecs matrix.
 
 ### Note
 The code is still being tested. The correctness and validity of the model cannot be guaranteed.
