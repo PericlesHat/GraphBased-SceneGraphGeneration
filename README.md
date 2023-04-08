@@ -1,5 +1,9 @@
-# Scene Graph Generation Using Heterogeneous GNN
-This project is a PyTorch-based scene graph generation algorithm. The algorithm can handle Object-Object (OO) and Object-Relation-Object (ORO) graphs and uses a custom heterogeneous graph neural network (GNN) for learning and prediction.
+# Graph-based Scene Graph Generation
+This project is a set of graph structure-based scene graph generation. All codes based on PyTorch.
+
+### Models
+- **HGNN**: Heterogeneous GNN can handle Object-Object (OO) and Object-Relation-Object (ORO) graphs and uses a custom heterogeneous graph neural network (GNN) for learning and prediction
+- More comming soon...
 
 ### Installation
 Before running this project, please make sure you have installed the following dependencies:
