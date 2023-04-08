@@ -15,21 +15,9 @@ pip install torch numpy matplotlib
 ```
 
 ### Usage
-First, you need to place the dataset in the data/ folder. Then, you can run the train.py file for training:
+To use this algorithm, you need to design your own obj_vecs, rel_vecs, and edge_index matrices.
 
-```python
-python train.py --in_channels_obj 32 --in_channels_rel 32 --out_channels 32
-```
-
-You can change the values of in_channels_obj, in_channels_rel, and out_channels as needed. Additionally, you can also change other parameters, such as learning rate, batch size, etc.
-
-After training, you can run the test.py file for testing:
-
-```python
-python test.py --in_channels_obj 32 --in_channels_rel 32 --out_channels 32
-```
-
-This file will output the accuracy of the model on the test set and generate a loss graph.
+`obj_vecs` should have the shape `(O, D)`, where `O` is the number of objects in the scene and `D` is the dimension of each object feature vector. `rel_vecs` should have the shape `(T, D)`, where `T` is the number of relations in the scene. `edge_index` should have the shape `(T, 2)`. Each row in edge_index represents an edge between two objects, and the values in each row represent the indices of the connected objects in the obj_vecs matrix.
 
 ### Note
 The code is still being tested. The correctness and validity of the model cannot be guaranteed.
