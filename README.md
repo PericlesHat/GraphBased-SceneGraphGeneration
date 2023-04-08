@@ -9,11 +9,7 @@ Before running this project, please make sure you have installed the following d
 - NumPy
 - Matplotlib
 
-You can install these dependencies using the following command:
 
-```
-pip install torch numpy matplotlib
-```
 
 ### Usage
 To use this algorithm, you need to design your own obj_vecs, rel_vecs, and edge_index matrices.
@@ -23,5 +19,5 @@ To use this algorithm, you need to design your own obj_vecs, rel_vecs, and edge_
 ### Note
 The code is still being tested. The correctness and validity of the model cannot be guaranteed.
 
-License
+### License
 This project is released under the MIT license.
