@@ -20,7 +20,7 @@ To use this framework, you need to design your own `obj_vecs`, `rel_vecs`, and `
 
 **rel_vecs**: shape `(T, D)`, where `T` is the number of relations in the scene
 
-**edge_index**: shape `(T, 2)`, `edge_index[k] = i, j` indicates a triplet < object_vecs[i], rel_vecs[k], obj_vecs[j] >
+**edge_index**: shape `(T, 2)`, `edge_index[k] = i, j` indicates a triplet < `object_vecs[i]`, `rel_vecs[k]`, `obj_vecs[j]` >
 
 
 ### Note
