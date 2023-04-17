@@ -2,6 +2,7 @@
 This project is a set of graph structure-based scene graph generation. All codes based on PyTorch.
 
 ### Models
+- **GCN**: Simple Graph Convolution Network. Using 2 GCN layers to update objects and relations separately.
 - **HGNN**: Heterogeneous GNN can handle Object-Object (OO) and Object-Relation-Object (ORO) graphs and uses a custom heterogeneous graph neural network (GNN) for learning and prediction
 - More comming soon...
 
